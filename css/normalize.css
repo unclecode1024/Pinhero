@@ -1,0 +1,100 @@
+.post-content h1,
+.post-content h2,
+.post-content h3,
+.post-content h4,
+.post-content h5,
+.post-content h6 {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-weight: bold;
+    line-height: 1.4;
+}
+.post-content h1 {
+    padding-bottom: .3em;
+    font-size: 2.25em;
+    line-height: 1.2;
+}
+.post-content h2 {
+   padding-bottom: .3em;
+    font-size: 1.75em;
+    line-height: 1.225;
+    border-bottom: 1px solid #eee;
+}
+.post-content h3 {
+    font-size: 1.5em;
+    line-height: 1.43;
+}
+.post-content h4 {
+    font-size: 1.25em;
+}
+.post-content h5 {
+    font-size: 1em;
+}
+.post-content h6 {
+   font-size: 1em;
+    color: #777;
+}
+
+/* 加粗 */
+.post-content strong {
+  font-weight: 600;
+  color: black;
+}
+
+.post-content a {
+  font-weight: normal;
+  border-bottom: 1px solid black;
+}
+
+.post-content blockquote {
+    margin-left: 0px;
+    margin-right: 0px;
+    border-left: 3px solid #000000;
+    background-color: rgba(51 51 51/5%);
+    padding-left: 10px;
+    word-break: break-all;
+}
+
+
+
+.post-content table {
+    width: 100%;
+    max-width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+    margin-bottom: 1.5em;
+    font-size: 0.96em;
+    box-sizing: border-box;
+    display: block;
+    word-break: normal;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+}
+.post-content thead {
+    background-color: #efefee;
+}
+.post-content th,
+.post-content td {
+    padding: 4px 8px 4px 10px;
+    border: 1px solid #dadada;
+}
+.post-content tr:nth-child(even) {
+    background-color: #efefee;
+}
+
+.post-content img {
+    display: block;
+    margin: 20px auto 0;
+    width: 80%;
+    height: auto;
+}
+
+.post-content ul,
+.post-content ol {
+    padding-left: 20px;
+}
+
+.post-content ul p,
+.post-content ol p {
+    margin: 0;
+}

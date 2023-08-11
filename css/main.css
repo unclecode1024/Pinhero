@@ -1,0 +1,254 @@
+.fixbar {
+  position: fixed;
+  right: 16px;
+  bottom: 16px;
+}
+
+.outline {
+  width: 32px;
+  height: 32px;
+  background: #f0f0f0;
+  padding: 0.5rem;
+  border: none;
+  cursor: pointer; 
+}
+
+.social {
+  width: 32px;
+  height: 32px;
+  background: #f0f0f0;
+  padding: 0.5rem;
+  border: none;
+  cursor: pointer;
+}
+
+.back-to-top {
+  width: 32px;
+  height: 32px;
+  background: #f0f0f0;
+  padding: 0.5rem;
+  border: none;
+  cursor: pointer;
+  opacity: 100%;
+  transition: opacity 0.5s;
+}
+
+.hidden {
+  display: none;
+}
+
+.outline:hover,
+.social:hover,
+.back-to-top:hover {
+  background: #77aaad;
+}
+
+.outline-icon,
+.back-to-top-icon,
+.social-icon {
+  width: 1rem;
+  height: 1rem;
+  color: black;
+}
+
+
+.buyCoffe {
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: #409eff;
+}
+
+
+
+::-webkit-scrollbar {
+    width: 13px;
+}
+
+::-webkit-scrollbar-button {
+    display: none;
+}
+
+::-webkit-scrollbar-thumb {
+    min-height: 16px;
+    background-color: #999999;
+    background-clip: padding-box;
+    border: 3px solid #fdfdfd;
+    border-radius: 5px;
+}
+
+::selection {
+    background: #444;
+    color: #fff;
+}
+
+body {
+    font-family: "LXGW WenKai", sans-serif;
+    color: #24292e;
+    line-height: 1.6;
+    font-size: 16px;
+    background: #fafafa;
+    margin: 0px;
+    /*background: url(https://i.imgtg.com/2023/04/17/XdFZI.jpg) center center no-repeat no-repeat fixed #6A6B6F;*/
+    /*background-size: cover;*/
+}
+
+img {
+    max-width: 100%;
+    border-radius: 5px;
+	box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+    vertical-align: middle
+}
+
+a img {
+    border:none;
+}
+
+a {
+    color: #24292e;
+    text-decoration: none
+}
+
+a:hover {
+    color: #77aaad;
+    text-decoration: none
+}
+
+/*默认 box-shadow 数值：rgba(236, 236, 236, 0.86)*/
+.main {
+    max-width: 660px;
+    overflow: hidden;
+    margin: 40px auto;
+    padding: 50px;
+    background: #ffffff;
+    box-shadow: 0 10px 20px 0 rgba(236, 236, 236, 0.86);
+    border-radius: 8px;
+}
+
+.site-info {
+    display: flex;
+    align-items: center;
+}
+
+.site-info .desciption {
+    margin-left: 16px;
+    margin-top: 6px;
+}
+
+.site-info .desciption .title {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.site-info .desciption .motto {
+    font-size: 12px;
+    color: #7a8b9a;
+}
+
+.navbar {
+    border-bottom: 1px solid #dee2e6;
+}
+
+.navbar .menu_ul {
+    list-style: none;
+    padding-left: 0;
+    margin: 5px 0;
+    display: flex;
+}
+
+.navbar .menu_ul .menu_li {
+    margin-right: 0.3rem;
+}
+
+
+.post {
+    margin-top: 15px;
+    display: flex;
+}
+
+.post .time {
+    color: #4b5563;
+    height: 100%;
+    width: 100px;
+    flex-shrink: 0;
+}
+
+
+
+
+.post-meta {
+    margin-top: 5px;
+    margin-bottom: 25px;
+}
+
+.post-meta .post-title {
+    font-size: 2.0rem;
+    font-weight: bolder;
+}
+
+.post-meta nav {
+    font-size: 14px;
+    color: #999999;
+}
+
+#footer {
+    text-align: right;
+    font-size: 0.75em;
+    color: #999999;
+    border-top: 1px solid #f4f4f4;
+    padding-top: 20px;
+    margin-top: 20px;
+}
+
+
+
+
+@media (max-width: 767px) {
+    body {
+        background: #ffffff;
+    }
+
+    .main {
+        padding: 15px;
+        margin: 0 auto;
+        box-shadow: none;
+    }
+
+    .container {
+        margin-top: 10px;
+    }
+}
+
+/* 分页 */
+
+.pagination {
+    margin: 0;
+    padding: 10px 0 0;
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+}
+
+.pagination li {
+    list-style: none;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+
+.pagination .page-previous {
+    margin-right: 20px;
+    padding-right: 20px;
+}
+
+.pagination .page-item.page-previous {
+    text-align: right;
+}
+
+.pagination .page-item.page-next {
+    text-align: right;
+}
+
+.twikoo .tk-footer {
+    display: none;
+}
