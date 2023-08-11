@@ -10,7 +10,7 @@ Pinhero 是一款极简的 Typecho 主题，简约但不简单。主题命名取
 
 ## 下载地址
 
-[https://github.com/zhero/pinhero](https://github.com/zhero/pinhero)
+[https://github.com/zherome/pinhero](https://github.com/zhero/pinhero)
 
 ## 主题预览
 
@@ -34,7 +34,7 @@ Pinhero 是一款极简的 Typecho 主题，简约但不简单。主题命名取
 
 如果你觉得这个主题不错，你可以帮作者买一杯果汁表示鼓励 🍹。（赞助的时候记得加上备注 😁）
 
-<img src="https://www.unclecode.cn/skm.png" alt="赞助" style="zoom: 50%;" />
+<img src="./doc/skm.png" alt="赞助" style="zoom: 50%;" />
 
 ## License
 
