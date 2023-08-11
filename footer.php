@@ -33,7 +33,7 @@
             </div>
             
             <footer id="footer" role="contentinfo">
-                Theme is <a href="https://zhero.me/" target="_blank">Pinhero</a> Powered by <a href="https://typecho.org/" target="_blank">Typecho</a> &copy; <?php echo date('Y'); ?>
+                Theme is <a href="https://github.com/zherome/pinhero/" target="_blank">Pinhero</a> Powered by <a href="https://typecho.org/" target="_blank">Typecho</a> &copy; <?php echo date('Y'); ?>
                 </br>
                 <a href="https://beian.miit.gov.cn/" target="_blank"><?php $this->options->footerbeian(); ?></a>
             </footer><!-- end #footer -->
