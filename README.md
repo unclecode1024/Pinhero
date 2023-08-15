@@ -14,7 +14,7 @@ Pinhero 是一款极简的 Typecho 主题，简约但不简单。主题命名取
 
 ## 主题预览
 
-[http://www.zhero.me](http://www.zhero.me)
+[http://blog.zhero.me](http://blog.zhero.me)
 
 ## TODO
 
@@ -39,5 +39,3 @@ Pinhero 是一款极简的 Typecho 主题，简约但不简单。主题命名取
 ## License
 
 [MIT](https://opensource.org/licenses/MIT)
-
-Copyright (c) 2023-present, Zhero
